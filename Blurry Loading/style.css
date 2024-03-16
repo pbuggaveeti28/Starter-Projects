@@ -13,14 +13,14 @@ body{
     margin: 0;
 }
 .bg{
-    background: url('https://static.vecteezy.com/system/resources/thumbnails/022/575/456/small/chamomile-flower-field-camomile-in-the-nature-field-of-camomiles-at-sunny-day-at-nature-camomile-daisy-flowers-in-summer-day-chamomile-flowers-field-wide-background-in-sun-light-generative-ai-photo.jpg') no-repeat center/cover;
+    background: url('https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg') no-repeat center/cover;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
     z-index: -1; 
-    filter: blur(70px);
+    filter: blur(0px);
 }
 .loading-text{
     font-size: 50px;
